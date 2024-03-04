@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class MovingGrowing : MonoBehaviour
 {
-    [SerializeField] private float speed = 5.0f;
-    [SerializeField] private float growthRate = 1.0f;
+    [SerializeField] private float _speed = 5.0f;
+    [SerializeField] private float _growthRate = 1.0f;
 
     private void Update()
     {
-        transform.Translate(Vector3.forward * speed * Time.deltaTime);
+        transform.Translate(Vector3.forward * _speed * Time.deltaTime);
 
         transform.Rotate(Vector3.up * 50.0f * Time.deltaTime);
 
-        transform.localScale += Vector3.one * growthRate * Time.deltaTime;
+        transform.localScale += Vector3.one * _growthRate * Time.deltaTime;
     }
 }
