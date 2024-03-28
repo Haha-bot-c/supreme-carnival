@@ -1,0 +1,97 @@
+trackSelection = true
+refreshSearchWindowsInPlayMode = false
+fetchPreview = true
+defaultFlags = 0
+keepOpen = false
+queryFolder = "Assets"
+onBoardingDoNotAskAgain = true
+showPackageIndexes = false
+showStatusBar = false
+scopes = {
+	"last_search.310DEAF1" = "Physics"
+	"OpenInspectorPreview.310DEAF1" = "0"
+	"currentGroup.310DEAF1" = "all"
+}
+providers = {
+	packages = {
+		active = true
+		priority = 90
+		defaultAction = null
+	}
+	profilermarkers = {
+		active = false
+		priority = 100
+		defaultAction = null
+	}
+	store = {
+		active = true
+		priority = 100
+		defaultAction = null
+	}
+	log = {
+		active = false
+		priority = 210
+		defaultAction = null
+	}
+	scene = {
+		active = true
+		priority = 50
+		defaultAction = null
+	}
+	find = {
+		active = true
+		priority = 25
+		defaultAction = null
+	}
+	performance = {
+		active = false
+		priority = 100
+		defaultAction = null
+	}
+	adb = {
+		active = false
+		priority = 2500
+		defaultAction = null
+	}
+	asset = {
+		active = true
+		priority = 25
+		defaultAction = null
+	}
+}
+objectSelectors = {
+}
+recentSearches = [
+	"Physics"
+	""
+	"Выбери"
+	"Выберите персон"
+	"Выберите персонажа в иер"
+	"Выберите персонажа в иерархии сце"
+	"Выберите персонажа в иерархии сцены. В инс"
+	"Выберите персонажа в иерархии сцены. В инспекторе "
+	"Выберите персонажа в иерархии сцены. В инспекторе перейдите"
+	"Выберите персонажа в иерархии сцены. В инспекторе перейдите в разде"
+	"Выберите персонажа в иерархии сцены. В инспекторе перейдите в раздел \"Physic"
+	"Выберите персонажа в иерархии сцены. В инспекторе перейдите в раздел \"Physics\". Устан"
+	"Выберите персонажа в иерархии сцены. В инспекторе перейдите в раздел \"Physics\". Установите фла"
+	"Выберите персонажа в иерархии сцены. В инспекторе перейдите в раздел \"Physics\". Установите флажок \"Is "
+	"Выберите персонажа в иерархии сцены. В инспекторе перейдите в раздел \"Physics\". Установите флажок \"Is Trigger\"."
+	"On"
+	"OnTriggerE"
+	"OnTriggerEnter(Coll"
+	"OnTriggerEnter(Collider other)"
+]
+searchItemFavorites = [
+]
+savedSearchesSortOrder = 0
+showSavedSearchPanel = false
+hideTabs = false
+expandedQueries = [
+]
+queryBuilder = false
+ignoredProperties = "id;name;classname;imagecontentshash"
+helperWidgetCurrentArea = "all"
+disabledIndexers = ""
+minIndexVariations = 2
+findProviderIndexHelper = true
