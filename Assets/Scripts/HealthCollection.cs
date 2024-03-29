@@ -4,9 +4,9 @@ public class HealthCollection : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.TryGetComponent(out Heal heal))
+        if (other.TryGetComponent(out Medkit heal))
         {  
-            GetComponent<Health>().Heal(other.gameObject.GetComponent<Heal>().GiveHealth());
+            GetComponent<Health>().Heal(heal.Use());
             Destroy(other.gameObject);
         }
     }

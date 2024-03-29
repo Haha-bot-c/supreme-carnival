@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public class Heal : MonoBehaviour
+public class Medkit : MonoBehaviour
 {
     [SerializeField] private float _healAmount = 20f;
 
-    public float GiveHealth()
+    public float Use()
     {
         return _healAmount;
     }
